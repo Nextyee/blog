@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
-  branch: main  # A branch principal do seu repositório no GitHub
+  branch: main
 
-media_folder: "uploads"  # Onde suas imagens vão ser salvas no projeto
-public_folder: "/uploads"  # Caminho público para suas imagens
+media_folder: "uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "_posts"  # Onde os posts vão ser salvos
+    folder: "_posts" 
     create: true
     slug: "{{slug}}"
     fields:
