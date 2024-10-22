@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .post {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .post h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .post p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .post small {
+            color: #888;
+        }
+        .about {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Blog</h1>
+        <p>Compartilhando ideias e histórias</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#sobre">Sobre</a> <!-- O link agora aponta para a seção "Sobre" -->
+    </nav>
+
+    <div class="container">
+        <div class="post">
+            <h2>Título do Primeiro Post</h2>
+            <small>Publicado em 22 de outubro de 2024</small>
+            <p>tutu dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, nibh nec luctus ullamcorper, libero dolor suscipit odio, a volutpat sapien urna eget mauris. Sed consequat odio id dolor vehicula, a placerat augue auctor. Nulla nec dui augue.</p>
+        </div>
+
+        <div class="post">
+            <h2>Título do Segundo Post</h2>
+            <small>Publicado em 20 de outubro de 2024</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae leo sed risus aliquet tristique. Praesent vitae purus sollicitudin, tempus ex ut, sodales felis. Curabitur accumsan nisl at orci varius vehicula. Fusce vulputate risus non justo consequat, a ullamcorper magna vehicula.</p>
+        </div>
+
+        <div class="post">
+            <h2>Título do Terceiro Post</h2>
+            <small>Publicado em 18 de outubro de 2024</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lectus non congue auctor, justo erat fringilla felis, non auctor libero sem vel nulla. Pellentesque at ligula sed lorem congue sodales vel at justo.</p>
+        </div>
+
+        <!-- Seção "Sobre" -->
+        <div id="sobre" class="about">
+            <h2>Sobre</h2>
+            <p>Apenas mais um</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Meu Blog &copy; 2024</p>
+    </footer>
+</body>
+</html>
